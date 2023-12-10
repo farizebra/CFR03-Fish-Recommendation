@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- Your existing layout content -->
+
+    <ImageView
+        android:id="@+id/bg_splash_screen"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/_bg__splash_screen_shape"
+        android:scaleType="centerCrop" />
+
+    <RelativeLayout
+        android:id="@+id/content_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/fi_hku"
+            android:layout_width="match_parent"
+            android:layout_height="175dp"
+            android:layout_marginTop="377dp"
+            android:gravity="center"
+            android:text="@string/fi_hku_string"
+            android:textColor="@color/fi_hku_color"
+            android:textSize="33sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/fishku_logo_white_1"
+            android:layout_width="87dp"
+            android:layout_height="142dp"
+            android:layout_centerInParent="true"
+            android:contentDescription="fishku_logo_white_1"
+            android:src="@drawable/fishku_logo_white_1" />
+
+    </RelativeLayout>
+
+</RelativeLayout>
