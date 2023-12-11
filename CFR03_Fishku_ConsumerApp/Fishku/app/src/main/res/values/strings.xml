@@ -2,7 +2,18 @@
 <resources>
     <!-- splash_screen strings -->
 
-    <string name="app_name">Page 1</string>
+    <string name="app_name">FI$HKU</string>
     <string name="ek_img_content">ExportKit Image</string>
     <string name="fi_hku_string">FI$HKU</string>
+
+    <string name="message_welcome_page">Selamat datang di FI$HKU</string>
+    <string name="message_signup_page">Lengkapi informasi di bawah ini</string>
+    <string name="message_login_page">Masukkan email dan kata sandi</string>
+    <string name="signup">Daftar</string>
+    <string name="login">Masuk</string>
+    <string name="email">Email</string>
+    <string name="password">Kata Sandi</string>
+    <string name="name">Nama</string>
+    <string name="phone_number">Nomor Handphone</string>
+    <string name="address">Alamat</string>
 </resources>

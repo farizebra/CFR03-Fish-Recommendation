@@ -1,9 +1,12 @@
-package com.example.fishku
+package com.example.fishku.view.welcome
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import com.example.fishku.R
 import com.example.fishku.databinding.ActivityWelcomeBinding
+import com.example.fishku.view.daftar.DaftarActivity
+import com.example.fishku.view.masuk.MasukActivity
 
 class WelcomeActivity : AppCompatActivity() {
     private lateinit var binding: ActivityWelcomeBinding

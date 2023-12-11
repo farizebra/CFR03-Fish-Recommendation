@@ -1,8 +1,9 @@
-package com.example.fishku
+package com.example.fishku.view.splashscreen
 
 import android.content.Intent
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
+import com.example.fishku.view.welcome.WelcomeActivity
 import com.example.fishku.databinding.ActivitySplashScreenBinding
 
 @Suppress("DEPRECATION")

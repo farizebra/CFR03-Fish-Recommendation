@@ -9,7 +9,7 @@
         android:id="@+id/bg_splash_screen"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:src="@drawable/_bg__splash_screen_shape"
+        android:src="@drawable/bg_splash_screen_shape"
         android:scaleType="centerCrop" />
 
     <RelativeLayout
@@ -24,7 +24,7 @@
             android:layout_marginTop="377dp"
             android:gravity="center"
             android:text="@string/fi_hku_string"
-            android:textColor="@color/fi_hku_color"
+            android:textColor="@color/white"
             android:textSize="33sp"
             android:textStyle="bold" />
 
