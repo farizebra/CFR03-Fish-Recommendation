@@ -14,17 +14,18 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Fishku"
         tools:targetApi="31">
-        <activity
-            android:name=".view.daftar.DaftarActivity"
-            android:exported="false" />
-        <activity
-            android:name=".view.masuk.MasukActivity"
-            android:exported="false" />
+
         <activity
             android:name=".view.welcome.WelcomeActivity"
             android:exported="false" />
         <activity
             android:name=".view.main.MainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".view.daftar.DaftarActivity"
+            android:exported="false" />
+        <activity
+            android:name=".view.masuk.MasukActivity"
             android:exported="false" />
         <activity
             android:name=".view.splashscreen.SplashScreenActivity"
