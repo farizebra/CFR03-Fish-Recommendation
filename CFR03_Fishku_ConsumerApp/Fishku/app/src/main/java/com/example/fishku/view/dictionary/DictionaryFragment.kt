@@ -5,6 +5,8 @@ import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import androidx.recyclerview.widget.LinearLayoutManager
+import androidx.recyclerview.widget.RecyclerView
 import com.example.fishku.R
 
 // TODO: Rename parameter arguments, choose names that match
@@ -36,6 +38,16 @@ class DictionaryFragment : Fragment() {
     ): View? {
         // Inflate the layout for this fragment
         return inflater.inflate(R.layout.fragment_dictionary, container, false)
+    }
+
+    override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
+        super.onViewCreated(view, savedInstanceState)
+        val recyclerView = view.findViewById<RecyclerView>(R.id.rv_dictionary)
+        recyclerView.layoutManager = LinearLayoutManager(context)
+
+        // Assuming you have a data source for your cards
+        val data = listOf(DataModel("imageUrl", "Title", "Description")) // Replace with actual data
+        recyclerView.adapter = DictionaryAdapter(data)
     }
 
     companion object {
