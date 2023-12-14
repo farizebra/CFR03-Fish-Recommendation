@@ -16,4 +16,24 @@
     <string name="name">Nama</string>
     <string name="phone_number">Nomor Handphone</string>
     <string name="address">Alamat</string>
+
+    <string name="lele">Lele</string>
+
+    <string name="error_icon_description">Icon indicating an error</string>
+    <string name="error_fish_not_detected">Ikan tidak terdeteksi</string>
+    <string name="error_message_fish_not_detected">Gambar atau foto yang anda berikan tidak ditemukan jenis ikan</string>
+    <string name="learn_more_about_fish">Pelajari lebih lanjut tentang ikan</string>
+    <!-- Replace 'URL_to_more_information_about_fish' with the actual URL you want to link to -->
+    <string name="url_learn_more_about_fish">URL_to_more_information_about_fish</string>
+
+    <string name="section_nutrisi">Nutrisi</string>
+    <string name="content_nutrisi">[Nutrisi content here]</string>
+    <string name="section_pengolahan">Pengolahan</string>
+    <string name="content_pengolahan">[Pengolahan content here]</string>
+    <string name="section_khasiat">Khasiat</string>
+    <string name="content_khasiat">[Khasiat content here]</string>
+
+    <string name="section_title_lele">Lelé</string>
+    <string name="content_about_lele">Mengenai Ikan Lele: [actual content here]</string>
+
 </resources>

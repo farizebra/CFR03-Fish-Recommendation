@@ -8,4 +8,27 @@
         <item name="android:background">@drawable/button_background_white</item>
     </style>
 
+    <!-- Style for error title text appearance -->
+    <style name="ErrorTitleTextAppearance" parent="TextAppearance.AppCompat">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <!-- Style for error message text appearance -->
+    <style name="ErrorMessageTextAppearance" parent="TextAppearance.AppCompat">
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="SectionTitleTextAppearance" parent="TextAppearance.AppCompat.Large">
+        <item name="android:textColor">@color/colorPrimaryDark</item>
+        <item name="android:textStyle">bold</item>
+        <!-- Add any other styling attributes you need -->
+    </style>
+
+    <!-- Style for the content text -->
+    <style name="ContentTextAppearance" parent="TextAppearance.AppCompat.Body1">
+        <item name="android:textColor">@android:color/black</item>
+        <!-- Add any other styling attributes you need -->
+    </style>
+
 </resources>

@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DetailActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp">
+
+        <!-- Existing ImageView for photo -->
+        <ImageView
+            android:id="@+id/iv_dtl_photo"
+            android:layout_width="232dp"
+            android:layout_height="327dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="6dp"
+            android:src="@mipmap/ic_launcher" />
+
+        <!-- Existing TextView for fish name -->
+        <TextView
+            android:id="@+id/tv_dtl_nama"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="24sp"
+            android:padding="16dp"
+            android:textStyle="bold"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/iv_dtl_photo"
+            android:text="@string/lele" />
+
+        <!-- Additional TextViews for sections "Mengenai Ikan Lele", "Nutrisi", "Pengolahan", "Khasiat" -->
+        <!-- TextView for the title "Lelé" -->
+        <TextView
+            android:id="@+id/textViewSectionTitleLele"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/section_title_lele"
+            android:textAppearance="@style/SectionTitleTextAppearance"
+            android:layout_below="@id/tv_dtl_nama" />
+
+        <!-- TextView for the content "Mengenai Ikan Lele" -->
+        <TextView
+            android:id="@+id/textViewContentAboutLele"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/content_about_lele"
+            android:textAppearance="@style/ContentTextAppearance"
+            android:layout_below="@id/textViewSectionTitleLele" />
+
+        <TextView
+            android:id="@+id/textViewSectionNutrisi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/section_nutrisi"
+            android:textAppearance="@style/ContentTextAppearance"
+            android:layout_below="@id/textViewContentAboutLele" />
+
+        <!-- TextView for the content of "Nutrisi" -->
+        <TextView
+            android:id="@+id/textViewContentNutrisi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/content_nutrisi"
+            android:textAppearance="@style/ContentTextAppearance"
+            android:layout_below="@id/textViewSectionNutrisi" />
+
+        <!-- TextView for the section "Pengolahan" -->
+        <TextView
+            android:id="@+id/textViewSectionPengolahan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/section_pengolahan"
+            android:textAppearance="@style/ContentTextAppearance"
+            android:layout_below="@id/textViewContentNutrisi" />
+
+        <!-- TextView for the content of "Pengolahan" -->
+        <TextView
+            android:id="@+id/textViewContentPengolahan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/content_pengolahan"
+            android:textAppearance="@style/ContentTextAppearance"
+            android:layout_below="@id/textViewSectionPengolahan" />
+
+        <!-- TextView for the section "Khasiat" -->
+        <TextView
+            android:id="@+id/textViewSectionKhasiat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/section_khasiat"
+            android:textAppearance="@style/ContentTextAppearance"
+            android:layout_below="@id/textViewContentPengolahan" />
+
+        <!-- TextView for the content of "Khasiat" -->
+        <TextView
+            android:id="@+id/textViewContentKhasiat"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/content_khasiat"
+            android:textAppearance="@style/ContentTextAppearance"
+            android:layout_below="@id/textViewSectionKhasiat" />
+
+    </RelativeLayout>
+
+</ScrollView>

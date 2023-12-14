@@ -14,7 +14,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Fishku"
         tools:targetApi="31">
-
+        <activity
+            android:name=".DetailActivity"
+            android:exported="false" />
+        <activity
+            android:name=".DecetionResultActivity"
+            android:exported="false" />
         <activity
             android:name=".view.welcome.WelcomeActivity"
             android:exported="false" />
