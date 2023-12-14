@@ -46,4 +46,11 @@
     <string name="title_dashboard">Dashboard</string>
     <string name="title_notifications">Notifications</string>
 
+    <string name="fish_detection">Deteksi Ikan</string>
+    <string name="image_preview">Gambar Pratinjau</string>
+    <string name="gallery">Pilih dari Galeri</string>
+    <string name="camera">Ambil dari Kamera</string>
+    <string name="detect">Deteksi Gambar</string>
+    <string name="fish_detection_note">Masukkan gambar melalui galeri atau kamera. Lalu, klik tombol Deteksi Gambar</string>
+    <string name="empty_image_warning">Gambar Kosong</string>
 </resources>
