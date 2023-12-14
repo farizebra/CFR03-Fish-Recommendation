@@ -39,12 +39,12 @@
     <string name="title_home">Beranda</string>
     <string name="title_detection">Deteksi</string>
     <string name="title_dictionary">Dictionary</string>
-    <string name="title_account">Akun</string>
-    <!-- TODO: Remove or change this placeholder text -->
+    <string name="title_account">Profile</string>
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="title_activity_main2">MainActivity2</string>
     <string name="title_dashboard">Dashboard</string>
     <string name="title_notifications">Notifications</string>
+
 
     <string name="fish_detection">Deteksi Ikan</string>
     <string name="image_preview">Gambar Pratinjau</string>
@@ -53,4 +53,19 @@
     <string name="detect">Deteksi Gambar</string>
     <string name="fish_detection_note">Masukkan gambar melalui galeri atau kamera. Lalu, klik tombol Deteksi Gambar</string>
     <string name="empty_image_warning">Gambar Kosong</string>
+
+    <string name="name_user">Alexander Grahambell</string>
+    <string name="email_user">alexandrgrahambell654@gmail.com</string>
+    <string name="nomor_user">+62 9765456776766</string>
+
+
+        <string name="my_orders">Pesanan saya            Lihat riwayat pesanan saya</string>
+        <string name="view_order_history">Lihat riwayat pesanan saya</string>
+        <string name="open_website">Buka Website</string>
+        <string name="contact_admin">Hubungi Admin</string>
+        <string name="rate_app">Beri Rating di Apps Store</string>
+        <string name="privacy_policy">Kebijakan Privasi</string>
+
+
+
 </resources>

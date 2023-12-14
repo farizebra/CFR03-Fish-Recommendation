@@ -31,4 +31,8 @@
         <!-- Add any other styling attributes you need -->
     </style>
 
+    <style name="model">
+        <item name="cornerSize">50%</item>
+    </style>
+
 </resources>
