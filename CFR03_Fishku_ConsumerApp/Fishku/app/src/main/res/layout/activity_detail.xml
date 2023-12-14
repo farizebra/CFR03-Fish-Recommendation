@@ -20,7 +20,6 @@
             android:layout_marginTop="6dp"
             android:src="@mipmap/ic_launcher" />
 
-        <!-- Existing TextView for fish name -->
         <TextView
             android:id="@+id/tv_dtl_nama"
             android:layout_width="wrap_content"
@@ -32,8 +31,6 @@
             android:layout_below="@id/iv_dtl_photo"
             android:text="@string/lele" />
 
-        <!-- Additional TextViews for sections "Mengenai Ikan Lele", "Nutrisi", "Pengolahan", "Khasiat" -->
-        <!-- TextView for the title "Lelé" -->
         <TextView
             android:id="@+id/textViewSectionTitleLele"
             android:layout_width="wrap_content"
@@ -42,7 +39,6 @@
             android:textAppearance="@style/SectionTitleTextAppearance"
             android:layout_below="@id/tv_dtl_nama" />
 
-        <!-- TextView for the content "Mengenai Ikan Lele" -->
         <TextView
             android:id="@+id/textViewContentAboutLele"
             android:layout_width="match_parent"
@@ -59,7 +55,6 @@
             android:textAppearance="@style/ContentTextAppearance"
             android:layout_below="@id/textViewContentAboutLele" />
 
-        <!-- TextView for the content of "Nutrisi" -->
         <TextView
             android:id="@+id/textViewContentNutrisi"
             android:layout_width="match_parent"
