@@ -36,4 +36,14 @@
     <string name="section_title_lele">Lelé</string>
     <string name="content_about_lele">Mengenai Ikan Lele: [actual content here]</string>
 
+    <string name="title_home">Beranda</string>
+    <string name="title_detection">Deteksi</string>
+    <string name="title_dictionary">Dictionary</string>
+    <string name="title_account">Akun</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_main2">MainActivity2</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+
 </resources>
