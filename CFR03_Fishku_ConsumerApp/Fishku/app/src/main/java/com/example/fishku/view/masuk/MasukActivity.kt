@@ -1,9 +1,11 @@
 package com.example.fishku.view.masuk
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import androidx.appcompat.app.AlertDialog
 import com.example.fishku.databinding.ActivityMasukBinding
+import com.example.fishku.view.main.MainActivity
 
 class MasukActivity : AppCompatActivity() {
     private lateinit var binding: ActivityMasukBinding
@@ -40,6 +42,12 @@ class MasukActivity : AppCompatActivity() {
                         setMessage("Masuk succeed")
                         setPositiveButton("OK") { dialog, _ ->
                             dialog.dismiss()
+
+                            // Buat Intent untuk beralih ke MainActivity
+                            val intent = Intent(this@MasukActivity, MainActivity::class.java)
+
+                            // Mulai aktivitas MainActivity
+                            startActivity(intent)
                         }
                         create()
                         show()
