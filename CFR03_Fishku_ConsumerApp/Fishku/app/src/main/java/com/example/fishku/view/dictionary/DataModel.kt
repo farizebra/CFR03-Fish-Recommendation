@@ -1,5 +1,13 @@
 package com.example.fishku.view.dictionary
 
+import android.os.Parcelable
+import kotlinx.android.parcel.Parcelize
+
 // DataModel.kt
-data class DataModel(val imageUrl: String, val title: String, val description: String)
+@Parcelize
+data class DataModel(
+    val pictureResId: Int,
+    val title: String,
+    val description: String,
+) : Parcelable
 

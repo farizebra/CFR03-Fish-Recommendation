@@ -66,6 +66,58 @@
         <string name="rate_app">Beri Rating di Apps Store</string>
         <string name="privacy_policy">Kebijakan Privasi</string>
 
+    <string-array name="name_ikan">
+        <item>Lele</item>
+        <item>Tongkol</item>
+        <item>Gurame</item>
+    </string-array>
+
+    <string-array name="descard_ikan">
+        <item>Lele adalah......</item>
+        <item>Tongkol adalah.....</item>
+        <item>Gurame adalah.....</item>
+    </string-array>
+
+    <integer-array name="picture_ikan">
+        <item>@drawable/lele</item>
+        <item>@drawable/gurame</item>
+        <item>@drawable/tongkol</item>
+    </integer-array>
+
+    <!-- String-array untuk teks tentang ikan -->
+    <string-array name="about_ikan">
+        <item>Tentang Lele: Lele adalah ikan yang...</item>
+        <item>Tentang Gurame: Gurame adalah ikan yang...</item>
+        <item>Tentang Tongkol: Tongkol adalah ikan yang...</item>
+        <!-- Tambahkan teks tentang ikan lainnya sesuai kebutuhan -->
+    </string-array>
+
+    <!-- String-array untuk teks nutrisi ikan -->
+    <string-array name="nutrisi_ikan">
+        <item>Nutrisi Lele: Lele mengandung nutrisi A, B, C...</item>
+        <item>Nutrisi Gurame: Gurame mengandung nutrisi X, Y, Z...</item>
+        <item>Nutrisi Tongkol: Tongkol mengandung nutrisi P, Q, R...</item>
+        <!-- Tambahkan teks nutrisi ikan lainnya sesuai kebutuhan -->
+    </string-array>
+
+    <!-- String-array untuk teks pengolahan ikan -->
+    <string-array name="pengolahan_ikan">
+        <item>Pengolahan Lele: Lele bisa diolah menjadi berbagai masakan...</item>
+        <item>Pengolahan Gurame: Gurame seringkali diolah dengan cara...</item>
+        <item>Pengolahan Tongkol: Tongkol dapat diolah menjadi hidangan seperti...</item>
+        <!-- Tambahkan teks pengolahan ikan lainnya sesuai kebutuhan -->
+    </string-array>
+
+    <!-- String-array untuk teks khasiat ikan -->
+    <string-array name="khasiat_ikan">
+        <item>Khasiat Lele: Lele memiliki beberapa manfaat untuk kesehatan seperti...</item>
+        <item>Khasiat Gurame: Gurame juga dikenal memiliki manfaat seperti...</item>
+        <item>Khasiat Tongkol: Tongkol memiliki khasiat yang baik untuk...</item>
+        <!-- Tambahkan teks khasiat ikan lainnya sesuai kebutuhan -->
+    </string-array>
+
+
+
 
 
 </resources>

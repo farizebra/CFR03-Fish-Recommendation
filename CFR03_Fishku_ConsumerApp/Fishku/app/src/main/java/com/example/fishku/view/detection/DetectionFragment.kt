@@ -2,6 +2,7 @@ package com.example.fishku.view.detection
 
 import android.content.ContentValues
 import android.content.Context
+import android.content.Intent
 import android.net.Uri
 import android.os.Build
 import android.os.Bundle
@@ -13,6 +14,7 @@ import android.view.View
 import android.view.ViewGroup
 import android.widget.Toast
 import androidx.activity.result.contract.ActivityResultContracts
+import com.example.fishku.DecetionResultActivity
 import com.example.fishku.R
 import com.example.fishku.databinding.FragmentDetectionBinding
 import com.example.fishku.util.getImageUri
@@ -52,15 +54,23 @@ class DetectionFragment : Fragment() {
         return binding.root
     }
 
+    private fun navigateToDetectionResultActivity() {
+        currentImageUri?.let { uri ->
+            Log.d("DetectionFragment", "Navigating with URI: $uri")
+            val intent = Intent(activity, DecetionResultActivity::class.java).apply {
+                putExtra("EXTRA_IMAGE_URI", uri.toString())
+            }
+            startActivity(intent)
+        }
+    }
+
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
 
         binding.btnGallery.setOnClickListener { startGallery() }
         binding.btnCamera.setOnClickListener { startCamera() }
         binding.btnDetect.setOnClickListener {
-//            viewModel.getSession().observe(this) {user ->
-//                uploadImage(binding.descEditText.text.toString())
-//            }
+            navigateToDetectionResultActivity()
         }
     }
 
