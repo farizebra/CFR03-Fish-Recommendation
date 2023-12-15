@@ -5,6 +5,8 @@ import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import androidx.recyclerview.widget.LinearLayoutManager
+import androidx.recyclerview.widget.RecyclerView
 import com.example.fishku.R
 
 // TODO: Rename parameter arguments, choose names that match
@@ -35,8 +37,20 @@ class HomeFragment : Fragment() {
         savedInstanceState: Bundle?
     ): View? {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_home, container, false)
+        val view = inflater.inflate(R.layout.fragment_home, container, false)
+        val recyclerView = view.findViewById<RecyclerView>(R.id.recyclerView)
+        recyclerView.layoutManager = LinearLayoutManager(context)
+
+        // Here you would normally fetch or create your data list
+        val dataList = listOf(
+            FishProductionData("Kota Bandung - Jawa Barat", "Ikan Lele", "70 ton", "40 orang"),
+            // Add more data here...
+        )
+
+        recyclerView.adapter = FishProductionAdapter(dataList)
+        return view
     }
+
 
     companion object {
         /**

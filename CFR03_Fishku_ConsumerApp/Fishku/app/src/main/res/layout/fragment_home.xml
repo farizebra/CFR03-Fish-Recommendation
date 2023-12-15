@@ -15,6 +15,9 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:background="?attr/colorPrimary"
+            app:tabIndicatorColor="@android:color/white"
+            app:tabSelectedTextColor="@android:color/white"
+            app:tabTextColor="@android:color/darker_gray"
             android:minHeight="?attr/actionBarSize"
             android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"/>
 
@@ -24,22 +27,24 @@
             android:layout_height="wrap_content"
             android:layout_below="@id/tabLayout"
             android:orientation="horizontal"
-            android:padding="8dp">
+            android:padding="8dp"
+            android:gravity="center">
 
-            <!-- Replace with actual buttons or dropdowns -->
             <Button
                 android:id="@+id/btnSelectMonth"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="Pilih Bulan"/>
+                android:text="Pilih Bulan"
+                android:layout_marginEnd="4dp"/>
 
             <Button
                 android:id="@+id/btnSelectArea"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="Pilih Area"/>
+                android:text="Pilih Area"
+                android:layout_marginStart="4dp"/>
         </LinearLayout>
 
         <androidx.recyclerview.widget.RecyclerView
@@ -48,10 +53,12 @@
             android:layout_height="match_parent"
             android:layout_below="@id/filterContainer"
             android:padding="16dp"
-            android:scrollbars="vertical"/>
-
+            android:scrollbars="vertical"
+            app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+            tools:listitem="@layout/item_fish_production"/>
 
     </RelativeLayout>
 
+    <!-- Optionally include other overlays or UI elements here -->
 
 </FrameLayout>

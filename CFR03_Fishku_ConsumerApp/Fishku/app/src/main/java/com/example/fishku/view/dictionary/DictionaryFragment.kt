@@ -76,8 +76,8 @@ class DictionaryFragment : Fragment() {
             val intent = Intent(requireContext(), DetailActivity::class.java)
             intent.putExtra("title", dataModel.title) // Nama ikan
             intent.putExtra("about", resources.getStringArray(R.array.about_ikan)[1]) // Teks tentang ikan
-            intent.putExtra("nutrisi", resources.getStringArray(R.array.nutrisi_ikan)[1]) // Teks nutrisi ikan
-            intent.putExtra("pengolahan", resources.getStringArray(R.array.pengolahan_ikan)[1]) // Teks pengolahan ikan
+            intent.putExtra("nutrisi ", resources.getStringArray(R.array.nutrisi_ikan)[0]) // Teks nutrisi ikan
+            intent.putExtra("pengolahan ", resources.getStringArray(R.array.pengolahan_ikan)[0]) // Teks pengolahan ikan
             intent.putExtra("khasiat", resources.getStringArray(R.array.khasiat_ikan)[1]) // Teks khasiat ikan
             intent.putExtra("picture", dataModel.pictureResId) // Sumber gambar ikan
             startActivity(intent)
